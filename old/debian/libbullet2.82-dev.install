@@ -1,2 +1,3 @@
 usr/include/bullet/*
+usr/lib/*.so
 usr/lib/pkgconfig/*
