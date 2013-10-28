@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/simple-patchsys.mk
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+DEB_CMAKE_EXTRA_FLAGS := -DCMAKE_BUILD_TYPE="RelWithDebInfo" -DBUILD_SHARED_LIBS="ON" -DINSTALL_EXTRA_LIBS="ON" -DBUILD_DEMOS="OFF" -DBUILD_CPU_DEMOS="OFF" -DUSE_MULTITHREADED_BENCHMARK="ON"
+# Without extras:
+# -DBUILD_EXTRAS="OFF" -- default is ON
+# -DINSTALL_EXTRA_LIBS="OFF" -- default is OFF
+# Use double precision:
+# -DUSE_DOUBLE_PRECISION="ON" -- default is OFF
+include /usr/share/cdbs/1/class/cmake.mk
+
