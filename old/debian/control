@@ -9,7 +9,7 @@ Homepage: http://www.bulletphysics.org
 Package: libbullet2.82-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libbullet (= ${binary:Version}), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, freeglut3-dev
+Depends: ${shlibs:Depends}, ${misc:Depends}, libbullet2.82 (= ${binary:Version}), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, freeglut3-dev
 Conflicts: libbullet-dev (<< 2.82)
 Description: 3D collision detection and rigid body dynamics library (development files)
  Bullet is a 3D Collision Detection and Rigid Body Dynamics Library for games and animation.
