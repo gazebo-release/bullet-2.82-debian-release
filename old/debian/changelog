@@ -1,6 +1,5 @@
-bullet (2.82-1osrf1~quantal) precise; urgency=low
+bullet (2.82-1osrf1~precise) precise; urgency=low
 
   * Correctly accounting for different Ubuntu releases.
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org> Fri, 4 Jan 2013 12:55:00 -0300
-
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 4 Jan 2013 12:55:00 -0300
