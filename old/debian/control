@@ -1,0 +1,23 @@
+Source: bullet
+Section: libs
+Priority: extra
+Maintainer: Luis Felipe Strano Moraes <luis.strano@gmail.com>
+Build-Depends: cdbs, debhelper (>= 7.0.50~), cmake, libice-dev, libsm-dev, libx11-dev, libxtst-dev, libxau-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxft-dev, libxi-dev, libxinerama-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxss-dev, libxt-dev, libxv-dev, libxxf86vm-dev, libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, freeglut3-dev
+Standards-Version: 3.9.1
+Homepage: http://www.bulletphysics.org
+
+Package: libbullet-dev
+Section: libdevel
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libbullet (= ${binary:Version}), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, freeglut3-dev
+Description: 3D collision detection and rigid body dynamics library (development files)
+ Bullet is a 3D Collision Detection and Rigid Body Dynamics Library for games and animation.
+ .
+ This package contains the development files required to build against libbullet
+
+Package: libbullet
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libglu1 | libglu1-mesa, libgl1 | libgl1-mesa-glx, freeglut3
+Description: 3D collision detection and rigid body dynamics library
+ Bullet is a 3D Collision Detection and Rigid Body Dynamics Library for games and animation.

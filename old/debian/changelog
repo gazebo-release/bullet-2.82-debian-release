@@ -1,0 +1,60 @@
+bullet (2.81-1ppa1~quantal) quantal; urgency=low
+
+  * Correctly accounting for different Ubuntu releases.
+
+ -- Luis Felipe Strano Moraes <luis.strano@gmail.com>  Fri, 4 Jan 2013 12:55:00 -0300
+
+bullet (2.81-0) quantal; urgency=low
+
+  * New upstream release 2.81 (rev 2613)
+
+ -- Luis Felipe Strano Moraes <luis.strano@gmail.com>  Fri, 4 Jan 2013 12:31:00 -0300
+
+bullet (2.80-0) precise; urgency=low
+
+  * New upstream release 2.80 (rev 2531)
+
+ -- Andreas Brauchli <a.brauchli@elementarea.net>  Mon, 9 Jul 2011 23:26:03 +0200
+
+bullet (2.78-0) natty; urgency=low
+
+  * New upstream release 2.78
+
+ -- Andreas Brauchli <a.brauchli@elementarea.net>  Wed, 27 Jul 2011 19:22:00 +0200
+
+bullet (2.77-0~svn2218-1) maverick; urgency=low
+
+  * Add a natty build
+
+ -- Andreas Brauchli <a.brauchli@elementarea.net>  Sun, 06 Feb 2011 19:50:00 +0100
+
+bullet (2.77+svn2218-1) maverick natty; urgency=low
+
+  * Upstream release 2.77
+
+ -- Andreas Brauchli <a.brauchli@elementarea.net>  Thu, 23 Sep 2010 13:27:00 +0200
+
+bullet (2.77+svn2204-1) maverick; urgency=low
+
+  * new Upstream checkout, fixes a few bugs
+  * Add patch to have library versions set on all installed libs
+
+ -- Andreas Brauchli <a.brauchli@elementarea.net>  Mon, 12 Sep 2010 18:01:41 +0200
+
+bullet (2.77+svn2197-3) maverick; urgency=low
+
+  * Install extra libraries (ConvexDecomposition, GIMPACTUtils)
+
+ -- Andreas Brauchli <a.brauchli@elementarea.net>  Mon, 12 Sep 2010 18:01:41 +0200
+
+bullet (2.77+svn2197-2) maverick; urgency=low
+
+  * Change distrib to maverick, same build
+
+ -- Andreas Brauchli <a.brauchli@elementarea.net>  Mon, 30 Aug 2010 18:01:41 +0200
+
+bullet (2.77+svn2197-1) maverick; urgency=low
+
+  * Initial release (CMake build)
+
+ -- Andreas Brauchli <a.brauchli@elementarea.net>  Mon, 30 Aug 2010 18:01:41 +0200
