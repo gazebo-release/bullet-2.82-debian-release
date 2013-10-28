@@ -6,16 +6,17 @@ Build-Depends: cdbs, debhelper (>= 7.0.50~), cmake, libice-dev, libsm-dev, libx1
 Standards-Version: 3.9.1
 Homepage: http://www.bulletphysics.org
 
-Package: libbullet-dev
+Package: libbullet2.82-dev
 Section: libdevel
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libbullet (= ${binary:Version}), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, freeglut3-dev
+Conflicts: libbullet-dev (<< 2.82)
 Description: 3D collision detection and rigid body dynamics library (development files)
  Bullet is a 3D Collision Detection and Rigid Body Dynamics Library for games and animation.
  .
  This package contains the development files required to build against libbullet
 
-Package: libbullet
+Package: libbullet2.82
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libglu1 | libglu1-mesa, libgl1 | libgl1-mesa-glx, freeglut3
