@@ -21,6 +21,7 @@ override_dh_auto_configure:
 	    -DBUILD_DEMOS="OFF" \
 	    -DBUILD_CPU_DEMOS="OFF" \
 	    -DUSE_MULTITHREADED_BENCHMARK="ON" \
+	    -DUSE_DOUBLE_PRECISION="ON" \
 	    -DLIB_SUFFIX="/bullet_2.82"
 
 override_dh_auto_install:
