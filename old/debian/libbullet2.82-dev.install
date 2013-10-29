@@ -1,3 +1,3 @@
-usr/include/bullet/*
-usr/lib/*.so
-usr/lib/pkgconfig/*
+usr/include/bullet_2.82/*
+usr/lib/bullet_2.82/*.so
+usr/lib/pkgconfig/bullet2.82.pc
