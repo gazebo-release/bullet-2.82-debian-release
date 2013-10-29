@@ -1,0 +1,10 @@
+/usr/lib/bullet_2.82/libBulletSoftBody.so.2.82 /usr/lib/libBulletSoftBody.so.2.82
+/usr/lib/bullet_2.82/libGIMPACTUtils.so.2.82 /usr/lib/libGIMPACTUtils.so.2.82
+/usr/lib/bullet_2.82/libBulletCollision.so.2.82 /usr/lib/libBulletCollision.so.2.82  
+/usr/lib/bullet_2.82/libBulletWorldImporter.so.2.82 /usr/lib/libBulletWorldImporter.so.2.82
+/usr/lib/bullet_2.82/libHACD.so.2.82 /usr/lib/libHACD.so.2.82
+/usr/lib/bullet_2.82/libBulletDynamics.so.2.82 /usr/lib/libBulletDynamics.so.2.82
+/usr/lib/bullet_2.82/libBulletXmlWorldImporter.so.2.82 /usr/lib/libBulletXmlWorldImporter.so.2.82 
+/usr/lib/bullet_2.82/libLinearMath.so.2.82 /usr/lib/libLinearMath.so.2.82
+/usr/lib/bullet_2.82/libBulletFileLoader.so.2.82 /usr/lib/libBulletFileLoader.so.2.82  
+/usr/lib/bullet_2.82/libConvexDecomposition.so.2.82 /usr/lib/libConvexDecomposition.so.2.82
