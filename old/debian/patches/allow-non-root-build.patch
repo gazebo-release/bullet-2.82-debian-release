@@ -1,5 +1,5 @@
 diff --git a/autogen.sh b/autogen.sh
-index 59291d4..4362883 100644
+index 35623fa..9907386 100755
 --- a/autogen.sh
 +++ b/autogen.sh
 @@ -1,9 +1,9 @@
