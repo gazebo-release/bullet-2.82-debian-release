@@ -1,13 +1,9 @@
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index fda884c..168e823 100644
+index 18a089a..19aab96 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -397,10 +397,10 @@ ELSE()
- ENDIF()
- 
- IF(INSTALL_LIBS)
--	SET (LIB_SUFFIX "" CACHE STRING "Define suffix of directory name (32/64)" )
-+	SET (LIB_SUFFIX "/bullet_2.82" CACHE STRING "Define suffix of directory name (32/64)" )
+@@ -400,7 +400,7 @@ IF(INSTALL_LIBS)
+ 	SET (LIB_SUFFIX "" CACHE STRING "Define suffix of directory name (32/64)" )
  	SET (LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Library directory name")
  	## the following are directories where stuff will be installed to
 -	SET(INCLUDE_INSTALL_DIR      "${CMAKE_INSTALL_PREFIX}/include/bullet/" CACHE PATH "The subdirectory to the header prefix")
