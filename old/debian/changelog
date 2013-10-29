@@ -1,4 +1,4 @@
-bullet (2.82-1osrf1~precise) precise; urgency=low
+bullet (2.82-0osrf1~precise1) precise; urgency=low
 
   * Correctly accounting for different Ubuntu releases.
 
