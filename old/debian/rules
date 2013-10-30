@@ -6,7 +6,7 @@
 # dh-make output file, you may use that output file without restriction.
 # This special exception was added by Craig Small in version 0.37 of dh-make.
 
-.PHONY: override_dh_auto_configure override_dh_auto_configure override_dh_auto_install
+.PHONY: override_dh_auto_configure override_dh_auto_install
 
 %:
 	dh $@ --parallel
@@ -31,6 +31,3 @@ override_dh_auto_install:
 	mkdir -p debian/tmp/usr/lib/pkgconfig
 	mv debian/tmp/usr/lib/bullet_2.82/pkgconfig/bullet.pc \
            debian/tmp/usr/lib/pkgconfig/bullet2.82.pc
-
-override_dh_shlibdeps:
-	LD_LIBRARY_PATH=debian/tmp/usr/lib/bullet_2.82/	dh_shlibdeps --
